@@ -4,7 +4,7 @@ metadata:
   name: webserver2
 spec:
   containers:
-  - name: webserver
+  - name: webserver2
     image: nginx:latest
     ports:
     - containerPort: 80
